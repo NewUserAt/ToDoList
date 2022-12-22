@@ -7,7 +7,8 @@
 }
 body{
    
-    background: #009999;
+   background-image:url("back.jpg");
+   background-size: 1920px 1080px;
 }
 
 
@@ -20,7 +21,7 @@ body{
     height: 45px;
     font-family: 'Poppins',sans-serif;
     font-size: 15px;
-    border: 2px solid #d1d3d4;
+    border: 2px solid black;
     padding: 12px;
     color: #111111;
     font-weight: 500;
@@ -29,7 +30,7 @@ body{
 }
 #newtask input:focus{
     outline: none;
-    border-color: #0d75ec;
+    border-color: black;
 }
 
 #newtask button{
@@ -38,17 +39,17 @@ body{
     width: 20%;
     height: 45px;
     border-radius: 5px;
-    font-family: 'Poppins',sans-serif;
+   font-family: Georgia, serif; 
     font-weight: 500;
-    font-size: 16px;
-    background-color: #0d75ec;
+    font-size: 20px;
+    background-color: black;
     border: none;
-    color: #ffffff;
+    color: white;
     cursor: pointer;
     outline: none;
 }
 #tasks{
-    background-color: #009999;
+   
     padding: 30px 20px;
     margin-top: 10px;
     border-radius: 10px;
@@ -56,34 +57,32 @@ body{
     position: relative;
 }
 .task{
-    background-color: #c5e1e6;
+    
     height: 50px;
-		margin-bottom: 8px;
+	margin-bottom: 8px;
     padding: 5px 10px;
     display: flex;
-		border-radius: 5px;
+	border-radius: 10px;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid #939697;
+    border: 6px solid #939697;
     cursor: pointer;
 }
 .task span{
-    font-family: 'Poppins',sans-serif;
-    font-size: 15px;
+    font-family: Georgia, serif;
+    font-size: 20px;
     font-weight: 400;
 }
 .task button{
- 
- 
-    
-    border-radius: 5px;
+ border-radius: 5px;
     border: none;
     cursor: pointer;
     outline: none;
-	background-image: url('recycleBin.png');
-	background-size:50px;
-	height:50px;
-	width:50px;
+	background-color:black;
+	background-size:30px;
+	height:30px;
+	width:30px;
+	
 }
 
 .completed{
